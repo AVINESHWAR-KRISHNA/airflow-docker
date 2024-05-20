@@ -352,3 +352,10 @@ SyntaxError: invalid syntax. Perhaps you forgot a comma?
 [2024-05-20T06:37:52.675+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:37:52.674+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-05-20T06:37:52.704+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:37:52.703+0000] {dag.py:3954} INFO - Setting next_dagrun for sample-dag1 to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
 [2024-05-20T06:37:52.718+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sample-dag1.py took 0.118 seconds
+[2024-05-20T06:38:22.885+0000] {processor.py:161} INFO - Started process (PID=824) to work on /opt/airflow/dags/sample-dag1.py
+[2024-05-20T06:38:22.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sample-dag1.py for tasks to queue
+[2024-05-20T06:38:22.893+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:38:22.892+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sample-dag1.py
+[2024-05-20T06:38:22.924+0000] {processor.py:840} INFO - DAG(s) 'sample-dag1' retrieved from /opt/airflow/dags/sample-dag1.py
+[2024-05-20T06:38:22.983+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:38:22.983+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-20T06:38:23.022+0000] {logging_mixin.py:188} INFO - [2024-05-20T06:38:23.021+0000] {dag.py:3954} INFO - Setting next_dagrun for sample-dag1 to 2024-05-21 00:00:00+00:00, run_after=2024-05-22 00:00:00+00:00
+[2024-05-20T06:38:23.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sample-dag1.py took 0.186 seconds
